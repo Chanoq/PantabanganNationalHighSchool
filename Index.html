@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantabangan National High School Official Website</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="Index.html"><img src="PNHS_LOGOs.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times-circle" onclick="hideMenu()"></i>
+                
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">STRAND</a></li>
+                    <li><a href="">SECTION</a></li>
+                    <li><a href="">NEWS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>Welcome!</h1>
+    <p>This is Pantabangan National High School official website, we are here for online support.
+        <br> Here you can see latest news about our school,<br>and through this website you can communicate
+        with us.
+    </p>
+    <a href="" class="hero-btn">Visit Us To know more</a>
+</div>
+        
+    </section>
+
+<!----course---->
+
+<section class="strand">
+    <H1>SH Strands We Offer</H1>
+    <p>Humanities and Social Sciences Strand <b>(HUMSS)</b> <br> Science Technology Engineering And Mathematics <b>(STEM)</b> <br>
+        Accountancy Business Manage <b>(ABM)</b> <br> Technical Vocational Livelihood <b>(TVL)</b> <br> General Academic Strand <b>(GAS)</b>
+    </p>
+
+    <div class="row">
+        <div class="strand-col">
+            <h3>HUMSS</h3>
+            <p>Humanities and Social Sciences Strand (HUMSS) The HUMMS strand is designed for 
+                <br> those who wonder what is on the other side of the wall. In other words, you are ready to 
+                <br> take on the world and talk to a lot of people.</p>
+        </div>
+        <div class="strand-col">
+            <h3>STEM</h3>
+            <p>STEM stands for Science, Technology, Engineering, and Mathematics strand. 
+                <br> Through the STEM strand, senior high school students are exposed to complex 
+                <br> mathematical and science theories and concepts which will serve as a foundation 
+                <br> for their college courses.</p>
+        </div>
+        <div class="strand-col">
+            <h3>ABM</h3>
+            <p>The Accountancy, Business, and Management Strand—or ABM strand—seeks 
+                <br> to prepare the young business leaders of tomorrow. ABM strand 
+                <br> the way for business-related college degrees. It teaches the basic concepts of financial 
+                <br> management, accounting, and corporate operations.</p>
+        </div>
+         <div class="strand-col">
+             <h3>TVL</h3>
+             <p> Technical-Vocational-Livelihood track. Through the TVL senior high school track, students can gain the skills and <br>
+             they need to seek for employment straight after senior high school whether that's in the <br>
+             Philippines or overseas. What are the strands to choose from under the TVL track?</p>
+         </div>
+        <div class="strand-col">
+            <h3>GAS</h3>
+             <p> General Academic Strand (GAS). Unlike other K to 12 tracks and strands that are specific to a career, <br>
+            GAS gives you the chance to weigh your options. GAS is a Senior High School strand that takes on a generalist <br>
+            approach in preparing students for college.</p>
+    </div>
+</div>
+
+</section>
+
+<!-----section---->
+
+<section class="section">
+    <h1>JH Sections We Offer</h1>
+    <p>Science Technology Engineering <b>(STE)</b><br>
+    Information Communication Technology <b>(ICT)</b><br>
+    OTHERS</p>
+    
+    <div class="raw">
+        <div class="strands-col">
+            <h3>STE</h3>
+             <p>Is a Science, Technology, Engineering, Math and Research oriented curriculum.
+            The program is designed to develop the full<br>potential of the learners in Science, Technology, Math and 
+            Engineering education as well as to repare them for<br>higher learning and future career in Science, 
+            Technology, and Engineering fields.</p>
+         </div>
+         <div class="strands-col">
+            <h3>ICT</h3>
+            <p>ICT encompasses both the internet-enabled sphere as well as the mobile one powered by wireless networks. 
+            It also includes antiquated technologies,<br>such as landline telephones, radio and television broadcast -- 
+            all of which are still widely used today alongside<br>cutting-edge ICT pieces such as artificial intelligence and robotics.</p>
+         </div>
+         <div class="strands-col">
+             <h3>OTHERS</h3>
+             <p>Other section as "Section Sampaguita or Section A or 1". This section is for transferrees
+            from grade 8-10 and for the students<br>who didn't pass the entrance exam for STE and ICT. This section is also provided
+            with excellent learning procedures.
+            </p>
+    </div>    
+</section>
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
